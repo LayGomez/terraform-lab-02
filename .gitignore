@@ -1,0 +1,12 @@
+# Archivos de estado de Terraform (CONTIENEN SECRETOS)
+*.tfstate
+*.tfstate.backup
+*.tfvars
+*.tfvars.json
+
+# Carpeta de inicialización (descargas de proveedores)
+.terraform/
+
+# Archivos de registro y bloqueos
+.terraform.lock.hcl
+*.log.terraform/
