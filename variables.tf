@@ -22,7 +22,7 @@ variable "subnets" {
   }))
   
   default = [ 
-    { nombre = "publica-1a", cidr = "10.0.1.0/24", az = "eu-west.1a"},
+    { nombre = "publica-1a", cidr = "10.0.1.0/24", az = "eu-west-1a"},
     { nombre = "publica-1b", cidr = "10.0.2.0/24", az = "eu-west-1b"} ]
 }
 
